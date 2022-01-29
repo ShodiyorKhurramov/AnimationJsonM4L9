@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jsonanimviewpage">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JsonTheme">
+        <activity
+            android:name=".activity.JsonViewPagerTask"
+            android:exported="false" />
+        <activity
+            android:name=".activity.M4L9T6"
+            android:exported="false" />
+        <activity
+            android:name=".activity.M4L9T5"
+            android:exported="false" />
+        <activity
+            android:name=".activity.M4L9T4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.M4L9T3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.M4L9T2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.M4L9T1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
